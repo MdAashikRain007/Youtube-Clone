@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Liter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+
+}
+/* Global Styles for Dark Mode */
+body {
+   /* Dark background */
+    color: white; /* Default text color */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    z-index: 0;
+}
+
+    
+
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}

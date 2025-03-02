@@ -1,0 +1,122 @@
+nav{
+    padding: 0.8rem 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 0.8rem rgba(218, 212, 212, 0.627);
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 10vh;
+
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left .menu-icon{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    z-index: 10;
+}
+.nav-left .logo{
+    height: 8rem;
+    width: 8rem;
+}
+.nav-middle .Search{
+    height: 2rem;
+    width: 2rem;
+}
+.nav-middle input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color:white;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.nav-middle{
+    border-radius: 1.5rem;
+    width: 30%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem;
+    border: 1px solid rgba(201, 198, 198, 0.574);
+
+}
+.nav-right{
+    padding: 1rem;
+}
+.nav-right .nav-btn{
+    background: #606060b0;
+  border-radius: 999px;
+  /* box-shadow: #5E5DF0 0 10px 20px -10px; */
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  opacity: 1;
+  /* outline: 0 solid transparent; */
+  padding: 3.5px 11px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  display: flex;
+    
+}
+.nav-right .nav-btn:hover{
+    background-color: rgba(105, 107, 109, 0.456);
+}
+.nav-right .nav-btn img{
+    height: 1.7rem;
+    width: 1.7rem;
+    margin-right: 0.2rem;
+}
+.nav-right .User-icon{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+.nav-right .Noti{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 0.5rem;
+}
+@media (max-width:900px) {
+    .menu-icon{
+        display: none;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .User-icon{
+        display: block;
+        width: 30px;
+    }
+    .logo{
+        width: 90px;
+    }
+    .nav-middle .Search input{
+        width: 100px;
+    }
+    .nav-middle .Search{
+        display: none;
+    }
+    .nav-right .nav-btn{
+        padding: 4.5px 6px;
+    }
+   
+    
+}
+

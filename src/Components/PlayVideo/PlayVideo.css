@@ -1,0 +1,149 @@
+.play-video{
+    background-color: black;
+    color: white;
+    flex-basis: 68%;
+}
+.play-video iframe{
+    width: 100%;
+    height: 37vw;
+}
+.play-video h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.play-video-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-right: 5px;
+    padding: 15px;
+ 
+    
+}
+
+.play-video-info img{
+    width: 20px;
+    margin-right: 8px;
+}
+.play-video-info span{
+    display: inline;
+    align-items: center;
+    margin-left: 15px;
+}
+.play-video-info hr{
+    border: 0;
+    height: 1px;
+    background-color: #fcecec70;
+    margin: 10px 0;
+}
+.publisher{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+}
+.publisher div{
+    flex: 1;
+    line-height: 18px;
+}
+.publisher img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.publisher div p{
+    color: #ccc;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.publisher div span{
+    font-size: 13px;
+    opacity: 0.9;
+}
+.publisher button{
+    background-color: white;
+    color: rgb(46, 44, 44);
+    font-weight: 600;
+    padding: 8px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.vid-description{
+    padding-left: 55px;
+    margin: 15px 0;
+}
+.vid-description p{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: rgb(223, 213, 213);
+}
+.vid-description h4{
+    font-size: 14px;
+    color: rgb(186, 186, 186);
+    margin-top: 15px;
+
+}
+.comments{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.comments img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.comments h3{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.comments h3 span{
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 8px;
+}
+.comment-action{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+.comment-action img{
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5px;
+}
+.comment-action span{
+    margin-right: 20px;
+    color: aliceblue;
+}
+@media(max-width:900px){
+    .play-video{
+        flex-basis: 100%;
+    }
+    .play-video iframe{
+        width: 100%;
+        height: 50vw;
+    }
+    .vid-description{
+        padding-left: 0;
+    }
+    .play-video .play-video-info span{
+        margin-left: 0;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+    .play-video-info p{
+        margin-bottom: 1.5px;
+    }
+}
